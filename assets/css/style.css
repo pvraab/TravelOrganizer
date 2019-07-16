@@ -1,0 +1,97 @@
+#user-table th,
+td {
+    display: inline-block;
+    width: 16.575%;
+    
+}
+
+#itinerary-table th,
+td {
+    display: inline-block;
+    width: 16.575%;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+
+body {
+background:url("../images/background.jpg") no-repeat center center fixed;
+background-size: cover;
+}
+
+.jumbotron {
+    font-family: 'Poiret One', cursive;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+ }
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+ }
+
+ h3 {
+     font-size: 50px;
+ }
+
+ .btn {
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    background-color: rgb(38, 38, 255);
+    color: white;
+    font-weight: bold;
+ }
+
+.dropdown-menu {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 80%;
+}
+
+#modalText {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}
+
+#currencyModal {
+    height: 500px;
+}
+
+.currency {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+input[type=text]:disabled {
+    background: #dddddd;
+}
+
+#currencyModalText {
+    background-image: url('../images/currency.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, .5);
+    margin: 5% 0;
+    border-radius: 5px;
+    padding: 2%;
+}
